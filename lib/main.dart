@@ -62,7 +62,7 @@ class _WebViewPageState extends State<WebViewPage> {
                   body: Center(
                     child: CircularProgressIndicator(
                       valueColor: new AlwaysStoppedAnimation<Color>(
-                          Color.fromARGB(255, 240, 243, 33)),
+                          Color.fromARGB(255, 240, 243, 32)),
                     ),
                   ),
                   backgroundColor: Color.fromARGB(255, 16, 29, 0),
