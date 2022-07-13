@@ -65,13 +65,12 @@ class _WebViewPageState extends State<WebViewPage> {
                           Color.fromARGB(255, 240, 243, 34)),
                     ),
                   ),
-                  backgroundColor: Color.fromARGB(255, 16, 29, 0),
+                  backgroundColor: Color.fromARGB(255, 16, 29, 46),
                 ) // this is the main reason of transparency at next screen. I am ignoring rest implementation but what i have achieved is you can see.
 
               : Stack()
         ],
       ),
     );
-    ;
   }
 }
